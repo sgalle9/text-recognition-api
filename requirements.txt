@@ -1,0 +1,6 @@
+fastapi[standard]
+gradio
+numpy
+matplotlib
+onnxruntime
+opencv-python

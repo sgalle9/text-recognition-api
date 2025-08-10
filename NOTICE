@@ -1,0 +1,16 @@
+Copyright 2025 Santiago Gallego
+
+
+The Initial Developer of the following assets is Darwin Bautista (https://github.com/baudm/parseq).
+Copyright 2022 Darwin Bautista
+- The file app/core/decoder.py
+- The original PyTorch checkpoint for the PARSeq model, which was converted to the ONNX format.
+
+
+The Initial Developer of the following assets is NAVER Corp (https://github.com/clovaai/CRAFT-pytorch).
+Copyright (c) 2019-present NAVER Corp.
+- The method `STDRPipeline._postprocess_detection` in app/core/pipeline.py
+- The original PyTorch checkpoint for the CRAFT model, which was converted to the ONNX format.
+
+
+For full license text, see the files in the LICENSES/ directory.
