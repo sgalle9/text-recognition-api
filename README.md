@@ -14,6 +14,11 @@ This project provides an API for scene text detection and recognition. It utiliz
 The application, built with FastAPI, offers two primary endpoints: one that returns predictions as JSON and another that provides an interactive demo built with Gradio.
 
 
+## Demo
+
+An interactive demo is available on Hugging Face Spaces. You can check it out [here](https://sgalle-text-recognition-api.hf.space/demo/).
+
+
 ## Setup
 
 1. **Clone the repository:**
@@ -24,7 +29,7 @@ The application, built with FastAPI, offers two primary endpoints: one that retu
 
 2. **Add assets and models:**
     - Place a sample image inside the `assets` folder and ensure it is named `example.jpg`. This will be used as the default example in the Gradio demo.
-    - Download the `.onnx` model files from the Releases page and place them inside the `models` folder.
+    - Download the `.onnx` model files from the project's [Hugging Face repository](https://huggingface.co/spaces/sgalle/text-recognition-api/tree/main/models) and place them inside the `models` directory.
 
 3. **(Optional) Configure the API:** You can modify the API's global constants by editing the `app/config.py` file.
 
