@@ -1,3 +1,12 @@
+---
+title: Text Detection and Recognition Api
+emoji: ⚡
+colorFrom: green
+colorTo: gray
+sdk: docker
+pinned: false
+---
+
 # Scene Text Detection and Recognition API
 
 This project provides an API for scene text detection and recognition. It utilizes the [CRAFT](https://github.com/clovaai/CRAFT-pytorch) model for text detection and the [PARSeq](https://github.com/baudm/parseq) model for text recognition. For efficient inference, both models have been converted to the ONNX format and are executed using ONNX Runtime.
